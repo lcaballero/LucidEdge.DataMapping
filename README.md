@@ -2,7 +2,7 @@
 
 ## Overview 
 
-This library consists of code that provides some assistance when hand-wrting
+This library consists of code that provides some assistance when hand-writing
 ORM.  The current release focuses only on the PostGres DB, and doesn't attempt
 to handle concurrency or asynchronicity.  The hope is that later version will
 use `TaskResult` or something similar.
@@ -10,15 +10,15 @@ use `TaskResult` or something similar.
 ## Getting Started
 
 To build the project open the .sln in the Tests project, which will bring
-in both the core librar, and Samples library.  Build the project and
+in both the Core library, and the Samples library.  Build the project and
 do what you will with the resulting .dlls.  
 
 ## Example
 
 The code below is an example of a class which can be injected with a map, and
-can thus map the underlying dictionary to a strongly typed interface, that
-can remap the names of columns to something more appropriate, or
-something that matches the language style, or something more explicit.
+can thus map the underlying dictionary to a strongly typed interface.  The
+class can remap the names of columns to something more appropriate as is done
+below with `CreatedAt` and `Created_At` for instance.
 
 ```CSharp
 public class UserProfile : IDataMapping
@@ -27,28 +27,25 @@ public class UserProfile : IDataMapping
 	
 	public long? Id { get { return Map["Id"].ToValue<long?>(); } }
 	public int? Version { get { return Map["Version"].ToValue<int?>(); } }
-	public DateTime? Created_At { get { return Map["Created_At"].ToValue<DateTime?>(); } }
-	public DateTime? Updated_On { get { return Map["Updated_On"].ToValue<DateTime?>(); } }
+	public DateTime? CreatedAt { get { return Map["Created_At"].ToValue<DateTime?>(); } }
+	public DateTime? UpdatedOn { get { return Map["Updated_On"].ToValue<DateTime?>(); } }
 	public bool IsActive { get { return Map["IsActive"].ToValue<bool>(); } }
 	public bool IsLocked { get { return Map["IsLocked"].ToValue<bool>(); } }
 
 	public string UserName { get { return Map["UserName"].ToValue<string>(); } }
 	public string Password { get { return Map["Password"].ToValue<string>(); } }
-	public int? UserGroup_Id { get { return Map["UserGroup_Id"].ToValue<int?>(); } }
-
-	public string Phone { get; set; }
-	public string Email { get; set; }
+	public int? UserGroupId { get { return Map["UserGroup_Id"].ToValue<int?>(); } }
 }
 ```
 
 The only requirement is that this class implements IDataMapping.
-With IDataMapping a number of functions that simply produce Dictionaries
-can be used to provide an instance with the underlying data.
+With IDataMapping any number of functions that produce Dictionaries
+can be used to provide data to an instance with the underlying data.
 
 The library comes with a few helpful extension functions for creating
-these backing Dictionaries, and the following example which is
-pulled from `Test_IDataMapping_Lookup` is an example use of `.Add(...)`
-and `.ToDataMapping<T>()`.
+these backing Dictionaries, and the following example which is pulled
+from `Test_IDataMapping_Lookup` is an example use of `.Add(...)` and
+`.ToDataMapping<T>()`.
 
 ```CSharp
 var dps =
@@ -79,19 +76,19 @@ be injected into instances of `IDataMapping`.
 `DropTable` in a synchronous fashion.  (Later versions of this library
 may come to use either concurrency or asynchronocity).
 
-With these function in hand we can use them like this:
-
 `UserScripts.Read_All_Users` is nothing more than a Sql Script embedded
 in the dll as a Resource.  The empty data points are provided since
 there are no required parameters, but if the script needed paramters
 they could be passed as DataPoint instances.
+
+With these functions in hand we can use them like this:
 
 ```CSharp
 	UserScripts.Read_All_Users.Read<User>(
 		new List<DataPoint>());
 ```
 
-In truth, Read<T> uses an optional paramter for both the parameters
+In truth, Read<T> uses an optional parameter for both the parameters
 and the connection, which means the above code could have been made
 even simpler:
 
