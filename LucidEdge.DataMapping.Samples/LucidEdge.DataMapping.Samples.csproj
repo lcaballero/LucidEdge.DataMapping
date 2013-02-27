@@ -42,6 +42,11 @@
   <ItemGroup>
     <Compile Include="DomainObjects\User.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SqlScripts\StockPicks.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>StockPicks.resx</DependentUpon>
+    </Compile>
     <Compile Include="SqlScripts\Users.cs" />
     <Compile Include="SqlScripts\UserSqlScripts.Designer.cs">
       <AutoGen>True</AutoGen>
@@ -56,6 +61,7 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="SqlScripts\StockPicks\Create_Stock_Picks_Table.sql" />
     <Content Include="SqlScripts\Users\Create-Tables.sql" />
     <Content Include="SqlScripts\Users\Drop-Tables.sql" />
     <Content Include="SqlScripts\Users\Insert-User.sql" />
@@ -63,6 +69,10 @@
     <Content Include="SqlScripts\Users\Read-User-1.sql" />
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="SqlScripts\StockPicks.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>StockPicks.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
     <EmbeddedResource Include="SqlScripts\UserSqlScripts.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>UserSqlScripts.Designer.cs</LastGenOutput>
