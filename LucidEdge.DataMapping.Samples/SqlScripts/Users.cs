@@ -14,5 +14,7 @@ namespace LucidEdge.DataMapping.Samples.SqlScripts
 		public static string Insert_User { get { return UserSqlScripts.Insert_User; } }
 		public static string Read_All_Users { get { return UserSqlScripts.Read_All_Users; } }
 		public static string Read_User_1 { get { return UserSqlScripts.Read_User_1; } }
+
+		public static string Create_Stock_Picks_Table { get { return StockPicks.Create_Stock_Picks_Table; } }
 	}
 }
