@@ -36,7 +36,7 @@ namespace LucidEdge.DataMapping
 			MaxPoolSize = 20;
 			Timeout = 15;
 			SslMode = "Disable";
-			Database = "Overflow";
+			Database = "StockGames";
 		}
 
 		/// <summary>

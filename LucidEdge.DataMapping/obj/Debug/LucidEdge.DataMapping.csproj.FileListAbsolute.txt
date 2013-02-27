@@ -1,0 +1,11 @@
+C:\Users\ryanolsen\Documents\GitHub\LucidEdge.DataMapping\LucidEdge.DataMapping\bin\Debug\LucidEdge.DataMapping.dll
+C:\Users\ryanolsen\Documents\GitHub\LucidEdge.DataMapping\LucidEdge.DataMapping\bin\Debug\LucidEdge.DataMapping.pdb
+C:\Users\ryanolsen\Documents\GitHub\LucidEdge.DataMapping\LucidEdge.DataMapping\bin\Debug\Mono.Security.dll
+C:\Users\ryanolsen\Documents\GitHub\LucidEdge.DataMapping\LucidEdge.DataMapping\bin\Debug\Npgsql.dll
+C:\Users\ryanolsen\Documents\GitHub\LucidEdge.DataMapping\LucidEdge.DataMapping\bin\Debug\policy.2.0.Npgsql.dll
+C:\Users\ryanolsen\Documents\GitHub\LucidEdge.DataMapping\LucidEdge.DataMapping\bin\Debug\Npgsql.pdb
+C:\Users\ryanolsen\Documents\GitHub\LucidEdge.DataMapping\LucidEdge.DataMapping\bin\Debug\Npgsql.xml
+C:\Users\ryanolsen\Documents\GitHub\LucidEdge.DataMapping\LucidEdge.DataMapping\bin\Debug\policy.2.0.Npgsql.config
+C:\Users\ryanolsen\Documents\GitHub\LucidEdge.DataMapping\LucidEdge.DataMapping\obj\Debug\LucidEdge.DataMapping.dll
+C:\Users\ryanolsen\Documents\GitHub\LucidEdge.DataMapping\LucidEdge.DataMapping\obj\Debug\LucidEdge.DataMapping.pdb
+C:\Users\ryanolsen\Documents\GitHub\LucidEdge.DataMapping\LucidEdge.DataMapping\obj\Debug\LucidEdge.DataMapping.csprojResolveAssemblyReference.cache

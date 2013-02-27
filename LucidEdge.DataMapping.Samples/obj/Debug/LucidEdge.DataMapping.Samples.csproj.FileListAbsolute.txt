@@ -1,0 +1,14 @@
+C:\Users\ryanolsen\Documents\GitHub\LucidEdge.DataMapping\LucidEdge.DataMapping.Samples\bin\Debug\LucidEdge.DataMapping.Samples.dll
+C:\Users\ryanolsen\Documents\GitHub\LucidEdge.DataMapping\LucidEdge.DataMapping.Samples\bin\Debug\LucidEdge.DataMapping.Samples.pdb
+C:\Users\ryanolsen\Documents\GitHub\LucidEdge.DataMapping\LucidEdge.DataMapping.Samples\bin\Debug\LucidEdge.DataMapping.dll
+C:\Users\ryanolsen\Documents\GitHub\LucidEdge.DataMapping\LucidEdge.DataMapping.Samples\bin\Debug\Npgsql.dll
+C:\Users\ryanolsen\Documents\GitHub\LucidEdge.DataMapping\LucidEdge.DataMapping.Samples\bin\Debug\Mono.Security.dll
+C:\Users\ryanolsen\Documents\GitHub\LucidEdge.DataMapping\LucidEdge.DataMapping.Samples\bin\Debug\LucidEdge.DataMapping.pdb
+C:\Users\ryanolsen\Documents\GitHub\LucidEdge.DataMapping\LucidEdge.DataMapping.Samples\bin\Debug\Npgsql.pdb
+C:\Users\ryanolsen\Documents\GitHub\LucidEdge.DataMapping\LucidEdge.DataMapping.Samples\bin\Debug\Npgsql.xml
+C:\Users\ryanolsen\Documents\GitHub\LucidEdge.DataMapping\LucidEdge.DataMapping.Samples\obj\Debug\LucidEdge.DataMapping.Samples.csprojResolveAssemblyReference.cache
+C:\Users\ryanolsen\Documents\GitHub\LucidEdge.DataMapping\LucidEdge.DataMapping.Samples\obj\Debug\LucidEdge.DataMapping.Samples.SqlScripts.UserSqlScripts.resources
+C:\Users\ryanolsen\Documents\GitHub\LucidEdge.DataMapping\LucidEdge.DataMapping.Samples\obj\Debug\LucidEdge.DataMapping.Samples.csproj.GenerateResource.Cache
+C:\Users\ryanolsen\Documents\GitHub\LucidEdge.DataMapping\LucidEdge.DataMapping.Samples\obj\Debug\LucidEdge.DataMapping.Samples.dll
+C:\Users\ryanolsen\Documents\GitHub\LucidEdge.DataMapping\LucidEdge.DataMapping.Samples\obj\Debug\LucidEdge.DataMapping.Samples.pdb
+C:\Users\ryanolsen\Documents\GitHub\LucidEdge.DataMapping\LucidEdge.DataMapping.Samples\obj\Debug\LucidEdge.DataMapping.Samples.SqlScripts.StockPicks.resources
